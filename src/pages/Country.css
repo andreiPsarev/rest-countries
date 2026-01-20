@@ -1,0 +1,134 @@
+.country-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.country-wrapper {
+    width: 100%;
+}
+
+.back-btn {
+    margin-bottom: 4rem;
+    width: fit-content;
+    background-color: var(--bg-el);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 5px 40px;
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+
+.back-btn:hover {
+    background-color: var(--el-hover);
+    color: var(--text);
+}
+
+.country-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    width: 100%;
+    align-items: stretch;
+}
+
+.flag-wrapper {
+    flex: 1;
+    display: flex;
+}
+
+.flag-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.full-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text);
+    margin-left: auto;
+    color: var(--text-header);
+}
+
+.country-info {
+    display: flex;
+}
+
+.country-info p b {
+    font-weight: 700;
+    color: var(--text-header);
+}
+
+.country-info p {
+    font-weight: 400;
+    color: var(--text-p);
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .country-card {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .country-info {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .flag-wrapper {
+        height: 400px;
+    }
+
+    .flag-wrapper img {
+        height: 100%;
+    }
+
+    .full-info {
+        margin: 0;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .country-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .country-info {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .flag-wrapper {
+        width: 100%;
+        flex: 0 0 auto;
+        height: 300px;
+    }
+
+    .flag-wrapper img {
+        height: 100%;
+    }
+
+    .full-info {
+        margin: 0;
+    }
+}

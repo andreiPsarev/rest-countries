@@ -1,0 +1,44 @@
+:root {
+  --bg: hsl(207, 26%, 17%);
+  --bg-el: hsl(209, 23%, 22%);
+  --text: hsl(0, 100%, 100%);
+  --text-header: rgb(225, 225, 225);
+  --text-p :rgb(186, 186, 186);
+  --el-hover: hsl(207, 22%, 27%);
+}
+
+[data-theme="dark"] {
+  --bg: hsl(0, 0%, 99%);
+  --bg-el: hsl(0, 100%, 100%);
+  --text: hsl(200, 15%, 8%);
+  --text-header: hsl(200, 15%, 8%);
+  --text-p: hsl(200, 15%, 15%);
+  --el-hover: hsl(0, 0%, 90%);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg);
+}
+
+a {
+  color: inherit;
+}
+
+.page {
+  padding: 0 6rem;
+}
+
+
+
+@media (max-width: 768px) {
+.page {
+  padding: 0 2rem;
+}
+}
