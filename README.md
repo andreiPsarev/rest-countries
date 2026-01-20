@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [My solution on GitHub Pages](https://andreipsarev.github.io/rating-component/)
+- Live Site URL: [My solution on GitHub Pages](https://andreipsarev.github.io/rest-countries/)
 
 ## My process
 
