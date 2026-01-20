@@ -58,4 +58,4 @@ During this project I improved my understanding of:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/andreiPsarev)
+- Frontend Mentor - [@andreiPsarev](https://www.frontendmentor.io/profile/andreiPsarev)
